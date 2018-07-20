@@ -37,6 +37,7 @@ class Connection:
 				print 'Not found queues'
 				sys.exit()
 		except KeyboardInterrupt:
+			print "exception in try of start function"
 			# Gracefully close the connection
 			self.connection.close()
 			# Loop until we're fully closed, will stop on its own

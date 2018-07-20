@@ -97,4 +97,8 @@ t.start()
 '''queue checking'''
 connector = Connection(host='vision.ecsv.org.ua', login='prosperodesu', password='s45fdfx65')
 connector.addCallback('open_pose', callback_converter)
-connector.start()
+while True:
+	try:
+		connector.start()
+	except:
+		print "Except in connector.start()"
