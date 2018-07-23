@@ -55,14 +55,14 @@ def callback_converter(ch, method, properties, body):
 		rightToDB(jsonVideo, videoId)
 		
 		"""DELETING VIDEO FROM QUEUE"""
-#		ch.basic_ack(delivery_tag=method.delivery_tag)
+		ch.basic_ack(delivery_tag=method.delivery_tag)
 		print "QUEUE element delete"
 	else:
 		"""write task data to DB if video record are availability"""
 		print "video exists"
 		rightToDB(jsonVideo, videoId)
 		"""DELETING VIDEO FROM QUEUE"""
-#		ch.basic_ack(delivery_tag=method.delivery_tag)
+		ch.basic_ack(delivery_tag=method.delivery_tag)
 		print "QUEUE element delete"
 
 
