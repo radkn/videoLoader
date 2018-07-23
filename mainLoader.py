@@ -34,7 +34,7 @@ def callback_converter(ch, method, properties, body):
 	n = int(params['numberofvideo'])
 	while n<=file_count:
 		"""wait while video folder is overwhelmet"""	
-		path, dirs, files = os.walk(r"F:\CIF\pistobribitka\videoLoader\video").next()
+		path, dirs, files = os.walk(videoPath).next()
 		file_count = len(files)
 		print ("The number of files in the video folder has been exceeded. Finde : "+ str(file_count)+" files")
 		time.sleep(int(params['timetocheckvideospaceisfree']))# waiting time before retesting
@@ -47,7 +47,7 @@ def callback_converter(ch, method, properties, body):
 		except ChunkedEncodingError:
 			return
 		print "video responsed"
-		with open(videoPath + fileName, 'wb') as f:
+		with open(videoPath +'\\'+ fileName, 'wb') as f:
 			print "video downloading"
 			f.write(response.content)
 		print "video downloaded"
@@ -55,14 +55,14 @@ def callback_converter(ch, method, properties, body):
 		rightToDB(jsonVideo, videoId)
 		
 		"""DELETING VIDEO FROM QUEUE"""
-		ch.basic_ack(delivery_tag=method.delivery_tag)
+#		ch.basic_ack(delivery_tag=method.delivery_tag)
 		print "QUEUE element delete"
 	else:
 		"""write task data to DB if video record are availability"""
 		print "video exists"
 		rightToDB(jsonVideo, videoId)
 		"""DELETING VIDEO FROM QUEUE"""
-		ch.basic_ack(delivery_tag=method.delivery_tag)
+#		ch.basic_ack(delivery_tag=method.delivery_tag)
 		print "QUEUE element delete"
 
 
@@ -77,7 +77,9 @@ def rightToDB(jsonToDB, videoId):
 	fileName = getFileName(jsonToDB['file_path'])
 	lastTaskId =  mysqlConnector.jsonToMySQLTask(videoId,int(jsonToDB['id']))
 	conf = jsonToDB['config']
+	print "***************************", type(conf)
 	for o in conf:
+		print o
 		if str(o['type']) == 'line':
 			"""right line location points to linelocation"""
 			print "Location: " + str(o['type']) + str(o['points'])
@@ -87,6 +89,12 @@ def rightToDB(jsonToDB, videoId):
 			print "right to db location: " + str(o['points'])
 			mysqlConnector.jsonToMySQLZone(lastTaskId, o)
 
+def connectToQueue():
+	connector = Connection(host='vision.ecsv.org.ua', login='prosperodesu', password='s45fdfx65')
+	connector.addCallback('open_pose', callback_converter)
+	print "connector.start()"
+	connector.start()
+
 
 '''start server busy checking in separate thread'''
 t = thread.Thread(target = checking, args=())
@@ -95,10 +103,9 @@ t.setName("CheckServerIsFree")
 t.start()
 
 '''queue checking'''
-connector = Connection(host='vision.ecsv.org.ua', login='prosperodesu', password='s45fdfx65')
-connector.addCallback('open_pose', callback_converter)
 while True:
-	try:
-		connector.start()
-	except:
-		print "Except in connector.start()"
+		try:
+			connectToQueue()
+		except:
+			print "Except in connector.start()"
+			connectToQueue()

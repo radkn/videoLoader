@@ -20,4 +20,14 @@ def read_config(filename='config.ini', section='mysql'):
 	else:
 		raise Exception('{0} not found in the {1} file'.format(section, filename))
 
+	for row in db:		
+		db[row]=checkSlash(db[row])
+	
+	print db
 	return db
+
+def checkSlash(str):
+	if str[-1]=='\\' or str[-1]=='/':
+		str = str[:-1]
+		str = checkSlash(str)
+	return str
