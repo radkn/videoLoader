@@ -1,6 +1,7 @@
 import time
 import pika
 import json
+import logging
 
 # local
 import mysqlConnector
@@ -20,7 +21,7 @@ def queueToServer():
 	channel.basic_publish(exchange='',
 	                      routing_key=queue,
 	                      body=message)
-	print " [x] Sent 'massage is sent'"
+	logging.info(" [x] Sent 'massage is sent'")
 	connection.close()
 
 def checking():
@@ -29,12 +30,14 @@ def checking():
 		l = mysqlConnector.isNVLine()
 		z = mysqlConnector.isNVZone()
 		isFree = not (t or l or z)
-		print ">>>>Server is free: ", isFree
+		logging.info( ">>>>Server is free: " + str(isFree))
 		if isFree:
 			queueToServer()
 		sleepTime = int(read_config(section='parameters')['timetocheckserverbusy'])
 		time.sleep(sleepTime)
 
-		print "Not comtleted task",t
-		print "Line records",l
-		print "Zone records",z
+		# print "Not comtleted task",t
+		# print "Line records",l
+		# print "Zone records",z
+
+#logging.basicConfig(format = u'%(filename)s[LINE:%(lineno)d]# %(levelname)-8s [%(asctime)s] %(message)s', level = logging.INFO, filename = u'mylog.log')

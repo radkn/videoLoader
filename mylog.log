@@ -1,0 +1,328 @@
+INFO     [2018-07-24 14:21:25,743] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:21:25,963] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:21:26,578] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:21:26,891] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:21:27,694] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:21:27,974] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:21:27,976] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:22:28,868] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:22:29,148] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:22:29,736] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:22:30,082] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:22:30,625] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:22:30,895] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:22:30,897] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:23:31,913] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:23:32,305] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:23:32,997] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:23:33,296] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:23:34,062] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:23:34,457] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:23:34,457] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:24:35,078] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:24:35,336] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:24:35,924] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:24:36,242] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:24:40,141] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:24:40,421] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:24:40,421] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:25:40,941] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:25:41,223] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:25:45,246] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:25:45,528] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:25:46,217] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:25:46,526] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:25:46,528] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:26:47,095] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:26:47,382] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:26:48,296] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:26:48,563] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:26:49,217] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:26:49,818] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:26:49,819] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:27:50,357] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:27:50,680] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:27:51,278] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:27:51,581] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:27:52,191] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:27:52,503] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:27:52,503] checkTask.py             [LINE:33]#  >>>>Server is free: False
+ERROR    [2018-07-24 14:28:36,240] mainLoader.py            [LINE:110]#  Except in connector.start()
+INFO     [2018-07-24 14:28:36,394] base_connection.py       [LINE:237]#  Pika version 0.12.0 connecting to 34.248.191.147:5672
+INFO     [2018-07-24 14:28:36,638] blocking_connection.py   [LINE:1201]#  Created channel=1
+INFO     [2018-07-24 14:28:36,694] mainLoader.py            [LINE:94]#  connector.start()
+INFO     [2018-07-24 14:28:36,753] connection.py            [LINE:32]#  (<Basic.GetOk(['delivery_tag=1', 'exchange=open_pose', 'message_count=3', 'redelivered=True', 'routing_key=/to_open_pose'])>, <BasicProperties(['content_type=text/plain', 'delivery_mode=2'])>, '{"file_path":"https:\\/\\/s3-eu-west-1.amazonaws.com\\/cifrusconverter\\/videos\\/21d7feba99df4d60b723e37181bfeb6a\\/1531494665.4388454.mp4","id":106,"config":[{"type":"line","points":{"x1":74.34,"y1":290.75,"x2":413.9435041965987,"y2":206.07733654011625},"location":"\\u041b\\u0438\\u043d\\u0438\\u044f 1"}],"screen_path":"https:\\/\\/cifrusconverter.s3.eu-west-1.amazonaws.com\\/shots\\/5b48c0852db81\\/5b48c0852dc2a.png","screen_width":960,"screen_height":1080,"video_date":"20180723161717","revision_count":4}')
+INFO     [2018-07-24 14:28:36,819] mainLoader.py            [LINE:21]#  >>>>> reading JSON >>>>> {u'revision_count': 16, u'screen_width': 640, u'video_date': u'20180723162150', u'id': 107, u'screen_path': u'https://cifrusconverter.s3.eu-west-1.amazonaws.com/shots/5b4cb86fe679d/5b4cb86fe6843.png', u'config': [{u'points': {u'y1': 208, u'x2': 415, u'x1': 65, u'y2': 208}, u'type': u'line', u'location': u'\u041b\u0438\u043d\u0438\u044f'}], u'file_path': u'https://s3-eu-west-1.amazonaws.com/cifrusconverter/videos/8c59da9bfdf24654bacf5526934432d1/1531754751.4456806.mp4', u'screen_height': 368}
+INFO     [2018-07-24 14:28:37,380] mysqlConnector.py        [LINE:14]#  Connected tonewvision
+INFO     [2018-07-24 14:28:37,576] mysqlConnector.py        [LINE:28]#  Connection closed
+INFO     [2018-07-24 14:28:37,578] mainLoader.py            [LINE:62]#  video exists
+INFO     [2018-07-24 14:28:38,188] mysqlConnector.py        [LINE:135]#  Connected tonewvision
+INFO     [2018-07-24 14:28:38,400] mysqlConnector.py        [LINE:146]#  last insert task id243
+INFO     [2018-07-24 14:28:38,566] mainLoader.py            [LINE:81]#  {u'points': {u'y1': 208, u'x2': 415, u'x1': 65, u'y2': 208}, u'type': u'line', u'location': u'\u041b\u0438\u043d\u0438\u044f'}
+INFO     [2018-07-24 14:28:38,566] mainLoader.py            [LINE:84]#  Right to db: line{u'y1': 208, u'x2': 415, u'x1': 65, u'y2': 208}
+INFO     [2018-07-24 14:28:39,226] mysqlConnector.py        [LINE:38]#  Connected tonewvision
+INFO     [2018-07-24 14:28:39,832] mysqlConnector.py        [LINE:56]#  Connection closed
+INFO     [2018-07-24 14:28:39,834] mainLoader.py            [LINE:66]#  QUEUE element delete
+INFO     [2018-07-24 14:28:39,836] mainLoader.py            [LINE:21]#  >>>>> reading JSON >>>>> {u'revision_count': 1, u'screen_width': 1280, u'video_date': u'20180723164638', u'id': 108, u'screen_path': u'https://cifrusconverter.s3.eu-west-1.amazonaws.com/shots/5b55dc841116d/5b55dc8411213.png', u'config': [], u'file_path': u'https://s3-eu-west-1.amazonaws.com/cifrusconverter/videos/4e67f5a7710646b5b4a04d613f9f78cc/1532353815.1746442.mp4', u'screen_height': 720}
+INFO     [2018-07-24 14:28:40,319] mysqlConnector.py        [LINE:14]#  Connected tonewvision
+INFO     [2018-07-24 14:28:40,480] mysqlConnector.py        [LINE:28]#  Connection closed
+INFO     [2018-07-24 14:28:40,480] mainLoader.py            [LINE:62]#  video exists
+INFO     [2018-07-24 14:28:41,283] mysqlConnector.py        [LINE:135]#  Connected tonewvision
+INFO     [2018-07-24 14:28:41,451] mysqlConnector.py        [LINE:146]#  last insert task id244
+INFO     [2018-07-24 14:28:41,842] mainLoader.py            [LINE:66]#  QUEUE element delete
+INFO     [2018-07-24 14:28:41,845] mainLoader.py            [LINE:21]#  >>>>> reading JSON >>>>> {u'revision_count': 1, u'screen_width': 1280, u'video_date': u'20180723165755', u'id': 109, u'screen_path': u'https://cifrusconverter.s3.eu-west-1.amazonaws.com/shots/5b55ddd63b848/5b55ddd63b8ee.png', u'config': [], u'file_path': u'https://s3-eu-west-1.amazonaws.com/cifrusconverter/videos/f50d5c940a9042c894ea4a3b208a27b1/1532354315.0353682.mp4', u'screen_height': 720}
+INFO     [2018-07-24 14:28:42,368] mysqlConnector.py        [LINE:14]#  Connected tonewvision
+INFO     [2018-07-24 14:28:42,552] mysqlConnector.py        [LINE:28]#  Connection closed
+INFO     [2018-07-24 14:28:42,553] mainLoader.py            [LINE:45]#  video response
+INFO     [2018-07-24 14:28:53,161] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:28:53,447] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:28:54,088] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:28:54,369] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:28:54,858] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:28:55,088] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:28:55,089] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:29:56,555] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:29:56,842] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:29:57,450] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:29:57,753] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:29:58,374] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:29:58,967] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:29:58,967] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:30:59,901] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:31:00,217] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:31:01,130] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:31:01,730] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:31:02,438] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:31:02,756] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:31:02,756] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:32:03,259] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:32:04,197] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:32:05,956] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:32:06,290] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:32:06,999] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:32:07,332] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:32:07,332] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:33:07,990] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:33:08,296] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:33:09,095] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:33:09,345] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:33:11,204] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:33:12,345] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:33:12,345] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:34:16,905] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:34:17,161] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:34:17,752] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:34:18,039] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:34:18,875] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:34:19,144] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:34:19,144] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:35:19,710] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:35:19,994] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:35:20,819] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:35:21,403] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:35:21,953] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:35:22,243] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:35:22,243] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:36:23,374] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:36:23,608] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:36:24,049] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:36:24,266] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:36:24,710] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:36:24,938] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:36:24,940] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:37:25,755] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:37:26,635] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:37:27,145] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:37:27,380] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:37:27,904] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:37:28,276] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:37:28,276] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:38:28,808] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:38:29,371] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:38:30,644] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:38:30,993] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:38:31,596] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:38:31,897] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:38:31,898] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:39:32,454] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:39:32,703] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:39:33,190] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:39:33,566] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:39:34,342] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:39:34,687] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:39:34,687] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:40:35,319] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:40:35,648] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:40:36,408] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:40:36,717] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:40:37,638] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:40:37,937] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:40:37,937] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:41:39,676] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:41:39,927] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:41:40,553] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:41:40,861] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:41:41,352] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:41:41,915] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:41:41,917] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:42:45,977] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:42:47,750] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:42:50,806] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:42:53,513] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:42:55,552] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:42:56,443] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:42:56,444] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:43:57,341] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:43:57,655] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:43:58,183] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:43:58,421] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:43:58,970] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:43:59,250] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:43:59,250] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:45:00,052] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:45:00,641] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:45:01,490] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:45:01,766] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:45:04,101] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:45:04,551] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:45:04,552] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:46:05,200] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:46:05,505] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:46:09,118] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:46:09,426] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:46:09,904] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:46:10,252] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:46:10,252] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:47:10,773] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:47:11,042] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:47:11,595] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:47:11,845] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:47:12,520] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:47:12,801] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:47:12,801] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:48:13,250] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:48:13,486] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:48:13,923] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:48:14,151] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:48:17,592] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:48:17,809] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:48:17,809] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:49:18,326] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:49:18,561] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:49:20,180] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:49:20,457] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:49:20,997] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:49:21,305] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:49:21,305] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:50:21,792] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:50:22,065] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:50:23,066] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:50:23,351] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:50:23,891] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:50:24,148] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:50:24,148] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:51:25,828] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:51:26,115] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:51:26,724] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:51:26,990] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:51:27,459] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:51:28,015] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:51:28,015] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 14:52:29,088] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 14:52:29,336] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 14:52:29,892] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 14:52:30,155] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 14:52:30,734] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 14:52:31,346] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 14:52:31,346] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 15:25:33,052] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 15:25:33,282] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 15:25:33,828] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 15:25:34,140] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 15:25:34,572] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 15:25:34,786] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 15:25:34,786] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 15:26:35,305] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 15:26:36,509] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 15:26:36,953] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 15:26:37,184] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 15:26:37,673] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 15:26:37,927] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 15:26:37,927] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 15:27:40,184] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 15:27:40,852] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 15:27:44,503] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 15:27:44,839] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 15:27:45,540] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 15:27:45,760] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 15:27:45,762] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 15:28:46,275] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 15:28:46,530] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 15:28:48,118] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 15:28:48,398] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 15:28:49,076] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 15:28:49,480] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 15:28:49,480] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 15:29:50,835] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 15:29:51,857] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 15:29:52,351] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 15:29:52,617] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 15:29:54,088] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 15:29:56,276] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 15:29:56,278] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 15:30:56,845] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 15:30:57,063] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 15:30:57,506] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 15:30:57,730] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 15:30:58,240] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 15:30:58,479] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 15:30:58,479] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 15:31:59,288] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 15:31:59,538] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 15:32:00,005] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 15:32:00,217] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 15:32:00,763] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 15:32:01,315] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 15:32:01,315] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 15:33:01,878] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 15:33:02,145] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 15:33:02,609] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 15:33:02,841] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 15:33:03,367] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 15:33:03,628] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 15:33:03,628] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 15:34:04,203] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 15:34:05,085] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 15:34:05,529] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 15:34:05,765] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 15:34:06,322] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 15:34:06,572] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 15:34:06,572] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 15:35:07,365] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 15:35:07,654] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 15:35:11,135] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 15:35:11,678] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 15:35:12,591] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 15:35:12,890] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 15:35:12,890] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 15:36:16,436] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 15:36:16,714] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 15:36:17,233] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 15:36:17,477] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 15:36:17,963] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 15:36:18,221] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 15:36:18,221] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 15:37:18,811] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 15:37:19,095] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 15:37:19,640] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 15:37:19,924] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 15:37:21,049] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 15:37:21,299] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 15:37:21,301] checkTask.py             [LINE:33]#  >>>>Server is free: False
+INFO     [2018-07-24 15:38:22,019] mysqlConnector.py        [LINE:234]#  Connected to newvisiontask
+INFO     [2018-07-24 15:38:22,349] mysqlConnector.py        [LINE:248]#  Connecte to newvisiontask closed
+INFO     [2018-07-24 15:38:23,197] mysqlConnector.py        [LINE:173]#  Connected tonewvisionline
+INFO     [2018-07-24 15:38:23,460] mysqlConnector.py        [LINE:188]#  Connecte tonewvisionline closed
+INFO     [2018-07-24 15:38:24,032] mysqlConnector.py        [LINE:204]#  Connected tonewvisionzone
+INFO     [2018-07-24 15:38:24,380] mysqlConnector.py        [LINE:219]#  Connecte tonewvisionzone closed
+INFO     [2018-07-24 15:38:24,381] checkTask.py             [LINE:33]#  >>>>Server is free: False

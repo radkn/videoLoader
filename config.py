@@ -22,8 +22,7 @@ def read_config(filename='config.ini', section='mysql'):
 
 	for row in db:		
 		db[row]=checkSlash(db[row])
-	
-	print db
+		
 	return db
 
 def checkSlash(str):

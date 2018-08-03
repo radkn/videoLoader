@@ -1,5 +1,7 @@
 import pika
 import sys
+
+import logging
  
  
 class Connection:
@@ -11,11 +13,9 @@ class Connection:
 		self.queueList = []
  
 	def on_open_connection(self, connection):
-		print "Coooooonnnnection open"
 		print connection
  
 	def on_open_channel(self, channel):
-		print "Chaaaaaannel open"
 		print channel
  
 	def addCallback(self, queue, callback):
@@ -29,7 +29,7 @@ class Connection:
 			# set up subscription on the queue
 			if len(self.queueList) > 0:
 				for item in self.queueList:
-					print self.channel.basic_get(item['queue'])
+					logging.info(str(self.channel.basic_get(item['queue'])))
 					self.channel.basic_consume(item['callback'],
 											   queue=item['queue'])
 				self.channel.start_consuming()
@@ -42,4 +42,6 @@ class Connection:
 			self.connection.close()
 			# Loop until we're fully closed, will stop on its own
 			self.channel.start_consuming()
+
+#logging.basicConfig(format = u'%(filename)s[LINE:%(lineno)d]# %(levelname)-8s [%(asctime)s] %(message)s', level = logging.INFO, filename = u'mylog.log')
 

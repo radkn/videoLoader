@@ -1,6 +1,7 @@
 import mysql.connector
 from mysql.connector import Error, MySQLConnection
 from config import read_config
+import logging
 
 def videoExist(videoName):
 	"""checking match the name of the video in DB without extention"""
@@ -10,9 +11,9 @@ def videoExist(videoName):
 	try:
 		conn = MySQLConnection(**db_config)
 		if conn.is_connected():
-			print 'Connected to', db_config['database']
+			logging.info('Connected to'+ db_config['database'])
 		else:
-			print 'conection failed'
+			logging.error('conection failed')
 		query = "SELECT * FROM video WHERE name='"+videoName+"'"
 		video = conn.cursor()
 		video.execute(query)
@@ -20,11 +21,11 @@ def videoExist(videoName):
 		if row:
 			ex = row[0]
 	except Error as e:
-		print(e)
+		logging.error(e)
 
 	finally:
 		conn.close()
-		print 'Connection closed'
+		logging.info('Connection closed')
 	return ex
 
 def jsonToMySQLLine(profileId, jsonLine):
@@ -34,9 +35,9 @@ def jsonToMySQLLine(profileId, jsonLine):
 	try:
 		conn = MySQLConnection(**db_config)
 		if conn.is_connected():
-			print 'Connected to', db_config['database']
+			logging.info('Connected to'+ db_config['database'])
 		else:
-			print 'conection failed'
+			logging.error('conection failed')
 
 		line = conn.cursor()
 		query = ('INSERT INTO linelocation(task_id, location,x1, y1, x2, y2)')
@@ -48,11 +49,11 @@ def jsonToMySQLLine(profileId, jsonLine):
 		conn.commit()
 
 	except Error as e:
-		print(e)
+		logging.error(e)
 
 	finally:
 		conn.close()
-		print 'Connection closed'
+		logging.info( 'Connection closed')
 
 def jsonToMySQLZone(profileId, jsonZone):
 	"""right zone location points to zonelocation"""
@@ -61,9 +62,9 @@ def jsonToMySQLZone(profileId, jsonZone):
 	try:
 		conn = MySQLConnection(**db_config)
 		if conn.is_connected():
-			print 'Connected to', db_config['database']
+			logging.info('Connected to'+ db_config['database'])
 		else:
-			print 'conection failed'
+			logging.error('conection failed')
 
 		line = conn.cursor()
 		query = ('INSERT INTO zonelocation(task_id, location, point_number, x, y)')
@@ -77,11 +78,11 @@ def jsonToMySQLZone(profileId, jsonZone):
 		conn.commit()
 
 	except Error as e:
-		print(e)
+		logging.error(e)
 
 	finally:
 		conn.close()
-		print 'Connection closed'
+		logging.info('Connection closed')
 
 
 def jsonToMySQLVideo(jsonVideo):
@@ -95,9 +96,9 @@ def jsonToMySQLVideo(jsonVideo):
 	try:
 		conn = MySQLConnection(**db_config)
 		if conn.is_connected():
-			print 'Connected to', db_config['database']
+			logging.info('Connected to'+ db_config['database'])
 		else:
-			print 'conection failed'
+			logging.error('conection failed')
 		video = conn.cursor()
 		query = ('INSERT INTO video(name, file_path, screen_path, screen_width, screen_height, video_date)'
 			+' VALUES(%s,%s,%s,%s,%s,%s)')
@@ -109,14 +110,14 @@ def jsonToMySQLVideo(jsonVideo):
 
 		if video.lastrowid:
 			lastid = video.lastrowid
-			print('last insert video id', video.lastrowid)
+			logging.info('last insert video id '+ str(video.lastrowid))
 		else:
 			lastid = 0
-			print('last insert video id not found')
+			logging.info('last insert video id not found')
 
 		conn.commit()
 	except Error as e:
-		print e
+		logging.error(e)
 	finally:
 		video.close()
 		conn.close()
@@ -131,9 +132,9 @@ def jsonToMySQLTask(videoId, outsideId):
 	try:
 		conn = MySQLConnection(**db_config)
 		if conn.is_connected():
-			print 'Connected to', db_config['database']
+			logging.info('Connected to'+ db_config['database'])
 		else:
-			print 'conection failed'
+			logging.error('conection failed')
 		profiles = conn.cursor()
 		query = ('INSERT INTO task(video_id, outsidetask_id) VALUES(%s,%s)')
 
@@ -142,13 +143,13 @@ def jsonToMySQLTask(videoId, outsideId):
 
 		if profiles.lastrowid:
 			lastid = profiles.lastrowid
-			print('last insert task id', profiles.lastrowid)
+			logging.info('last insert task id'+ str(profiles.lastrowid))
 		else:			
-			print('last insert task id not found')
+			logging.info('last insert task id not found')
 
 		conn.commit()
 	except Error as e:
-		print e
+		logging.error(e)
 	finally:
 		profiles.close()
 		conn.close()
@@ -169,9 +170,9 @@ def isNVLine():
 	try:
 		conn = MySQLConnection(**db_config)
 		if conn.is_connected():
-			print 'Connected to', db_config['database'], 'line'
+			logging.info('Connected to'+ db_config['database'] + 'line')
 		else:
-			print 'conection failed'
+			logging.error('conection failed')
 
 		line = conn.cursor()
 		query = ('SELECT COUNT(*) FROM line WHERE transmitted=0')
@@ -180,11 +181,11 @@ def isNVLine():
 		conn.commit()
 
 	except Error as e:
-		print(e)
+		logging.error(e)
 
 	finally:
 		conn.close()
-		print 'Connecte to', db_config['database'], 'line closed'
+		logging.info('Connecte to'+db_config['database']+ 'line closed')
 
 	if res>0:
 		return True
@@ -200,9 +201,9 @@ def isNVZone():
 	try:
 		conn = MySQLConnection(**db_config)
 		if conn.is_connected():
-			print 'Connected to', db_config['database'], 'zone'
+			logging.info('Connected to'+ db_config['database'] + 'zone')
 		else:
-			print 'conection failed'
+			logging.error('conection failed')
 
 		line = conn.cursor()
 		query = ('SELECT COUNT(*) FROM zone WHERE transmitted=0')
@@ -211,11 +212,11 @@ def isNVZone():
 		conn.commit()
 
 	except Error as e:
-		print(e)
+		logging.error(e)
 
 	finally:
 		conn.close()
-		print 'Connecte to', db_config['database'], 'zone closed'
+		logging.info('Connecte to'+ db_config['database']+ 'zone closed')
 
 	if res>0:
 		return True
@@ -230,9 +231,9 @@ def isNotCimpleteTask():
 	try:
 		conn = MySQLConnection(**db_config)
 		if conn.is_connected():
-			print 'Connected to', db_config['database'], 'task'
+			logging.info('Connected to '+ db_config['database']+'task')
 		else:
-			print 'conection failed'
+			logging.error('conection failed')
 
 		line = conn.cursor()
 		query = ('SELECT COUNT(*) FROM task WHERE completed=0')
@@ -241,13 +242,16 @@ def isNotCimpleteTask():
 		conn.commit()
 
 	except Error as e:
-		print(e)
-	finally:
+		logging.error(e)
+	else:
 		conn.close()
-		print 'Connecte to', db_config['database'], 'task closed'
+		logging.info('Connecte to '+ db_config['database']+ 'task closed')
 
 	if res>0:
 		return True
 	else:
 		return False
 # connect()
+
+
+#logging.basicConfig(format = u'%(filename)s[LINE:%(lineno)d]# %(levelname)-8s [%(asctime)s] %(message)s', level = logging.INFO, filename = u'mylog.log')
